@@ -1,0 +1,49 @@
+.boton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    height: 48px;
+    background: $color-background-button;
+    a {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: $color-font-p;
+        font-size: $font-size-button;
+        font-weight: 500;
+    }
+}
+
+//Vista Tablet
+@media (min-width: $phone-landscape-min) {
+    .inicio .boton {
+        width: 226px;
+    }
+    .ultimas-novedades .boton {
+        margin-left: auto;
+        margin-right: auto;
+        width: 345px;
+    }
+}
+
+
+//Vista Desktop
+
+@media (min-width: $desktop-screen-min) {
+    .boton {
+        height: 56px;
+        a {
+            font-size: $font-size-dv-button;
+            }
+        &:hover {
+            background: $color-background-hover;
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}
+  

@@ -1,0 +1,62 @@
+//Fonts
+$font-title: 'IBM Plex Sans', sans-serif;
+$font-p: 'IBM Plex Mono', monospace;
+$color-background: white;
+$color-font-title1: #060A24;
+$color-font-title2: white;
+$color-font-p: #060A24;
+
+//Fonts Mobile View
+$font-size-h1: 36px;
+$font-size-h2: 36px;
+$font-size-h3: 24px;
+$font-size-p: 14px;
+$font-size-menu: 16px;
+$font-size-fw: 16px;
+$font-size-button: 16px;
+$line-height-h1: 42px;
+$line-height-h2: 42px;
+$line-height-p: 22px;
+$line-height-menu: 28px;
+$text-align-p: left;
+
+//Fonts Desktop View
+$font-size-dv-h1: 64px;
+$font-size-dv-h2: 48px;
+$font-size-dv-p: 16px;
+$font-size-dv-fw: 18px;
+$font-size-dv-button: 18px;
+$line-height-dv-h1: 50px;
+$line-height-dv-p: 24px;
+
+//Botones
+$color-background-button: #00F3BB;
+$color-background-hover: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+
+//Espaciados Mobile
+$padding-text-sides: 0 16px 0 16px;
+
+//Espaciados Desktop
+$max-width-body-dv: 1072px;
+
+//Breakpoints
+$phone-landscape-min: 501px;
+$tablet-portrait-min: 768px;
+$tablet-landscape: 1000px;
+$desktop-screen-min: 1000px;
+
+
+
+/*
+celulares portrait: hasta 500px;
+celulares landscape: hasta 767px;
+tablet portrait: hasta 
+tablets: 768px-1199px;
+compus: 1200px en adelante;
+-
+$phone-portrait-max: 767px;
+$phone-landscape-min: 576px;
+$tablet-portrait: 768px;
+$tablet-landscape: 1024px;
+$desktop-screen-min: 1220px;
+*/

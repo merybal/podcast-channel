@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: $font-p;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 73px;
+    h1, h2, h3, h4, h5, h6 {
+    font-family: $font-title;
+    color: $color-font-title1;
+    font-weight: normal;
+    }
+    h1 {
+        font-size: $font-size-h1;
+        line-height: $line-height-h1;
+    }
+    h2 {
+        font-size: $font-size-h2;
+        font-weight: 500;
+        line-height: $line-height-h2;
+    }
+    h3 {
+        font-size: $font-size-h3;
+        font-weight: 600;
+    }
+    p {
+        font-size: $font-size-p;
+        line-height: $line-height-p;
+        text-align: $text-align-p;
+    }
+}
+
+
+//Vista Desktop
+
+@media (min-width: $desktop-screen-min) {
+    body {
+        padding-top: 200px;
+        h1 {
+            font-size: $font-size-dv-h1;
+            line-height: $line-height-dv-h1;
+        }
+        h2 {
+            font-size: $font-size-dv-h2;
+            font-weight: 500;
+        }
+        p {
+            font-size: $font-size-dv-p;
+            line-height: $line-height-dv-p;
+            text-align: $text-align-p;
+        }
+    }
+}

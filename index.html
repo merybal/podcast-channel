@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Maria Baltar">
+    <meta name="description" content="Trabajo Práctico N° 1 Podcast Channel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podcast Channel / Maria Baltar</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500%7CIBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Navigation bar -->
+    <header>
+        <div class="menu-container">
+            <input type="checkbox" id="menuhamburguesa">
+            <a href="#top"><img src="./images/logo.svg" alt="Logo" class="logo"></a>
+            <label for="menuhamburguesa">
+                <i id="hamburguesa" class="fa fas fa-bars"></i>
+                <i id="cruz" class="fa fas fa-times"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#episodios">EPISODIOS</a></li>
+                    <li><a href="#dedondevenimos">NOSOTROS</a></li>
+                    <li><a href="#invitadosestelares">ENTREVISTAS</a></li>
+                    <li><a href="#algunostemas">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Sección Inicio -->
+    <div class="inicio" id="inicio">
+        <h1>Hello <s>world</s>
+            <br>
+            pale blue dot<span class="dot">.</span></h1>
+        <p class="texto-mobile">Un podcast que explora el mundo de la programación.
+            Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <p class="texto-desktop">El portal de podcasts que explora el mundo de la 
+            programación y la tecnología. Nuevos episodios, todos los jueves 
+            cada 15 días.</p>
+        <div class="boton">
+            <a href="#dedondevenimos">CONOCÉ MÁS</a>
+        </div>
+    </div>
+
+<!-- Sección Episodios -->
+    <div class="episodios" id="episodios">
+        <h2>Episodios</h2>
+        <div class="iframe-container">
+            <iframe id="podcast1" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+            <iframe id="podcast2" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+            <iframe id="podcast3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+            <iframe id="podcast4" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+
+<!-- Imagen Celular --> 
+    <div class="img-celular-container">
+        <div class="img-celular">
+            <img src="./images/phone.png" alt="Imagen de teléfono con artículo de diario">
+        </div>
+    
+<!-- Sección De dónde venimos -->
+        <div class="de-donde-venimos" id="dedondevenimos">
+            <div>
+                <h2>De dónde 
+                    <br>
+                    venimos</h2>
+                <p> Our posturings, our imagined self-importance, 
+                    the delusion that we have some privileged position 
+                    in the Universe, are challenged by this point of 
+                    pale light.  </p>
+                <p> Our planet is a lonely speck in the great enveloping 
+                    cosmic dark. In our obscurity, in all this vastness, 
+                    there is no hint that help will come from elsewhere 
+                    to save us from ourselves.</p>
+            </div>
+        </div>
+    </div>  
+    
+
+<!-- Sección Invitadas/os estelares -->
+    <div class="invitados-estelares" id="invitadosestelares">
+        <h2>Invitadas/os estelares</h2>
+        <div class="invitados-imagenes">
+            <img src="./images/grace-hopper.png" alt="Image of Grace Hopper">
+            <img src="./images/Katie-Bouman.png" alt="Image of Katie Bouman">
+            <img src="./images/Margaret-Hamilton.png" alt="Image of Margaret Hamilton">
+            <img src="./images/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="An E.R.A. Univac 1103 computer in the 1950s">
+            <img src="./images/Computer-operators-with-an-Eniac-the-worlds-first-programmable-general-purpose-computer.png" alt="Computer operators with an Eniac the worlds first programmable general purpose computer">
+            <img src="./images/susan-kare.png" alt="Image of Susan Kare">
+        </div>
+    </div>
+
+<!-- Sección Algunos temas -->
+    <div class="algunos-temas" id="algunostemas">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="temas">
+            <div>
+                <img src="./images/icon1.svg" alt="Trabajo remoto">
+                <h3>Trabajo Remoto</h3>
+            </div>
+            <div>
+                <img src="./images/icon2.svg" alt="Repensando la programación">
+                <h3>Repensando la
+                    <br>
+                    programación</h3>
+            </div>
+            <div>
+                <img src="./images/icon3.svg" alt="Bases del código">
+                <h3>Bases del código</h3>
+            </div>        
+            <div>       
+                <img src="./images/icon4.svg" alt="Seguridad informática">
+                <h3>Seguridad informática</h3>
+            </div>
+        </div>
+    </div>
+
+<!-- Sección Últimas novedades -->
+    <div class="ultimas-novedades" id="ultimasnovedades">
+        <h2>¿Querés las últimas novedades?</h2>
+        <div class="boton">
+            <a href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
+        </div>
+    </div>
+
+<!-- Sección Footer -->
+    <footer>
+        <p>© 2019- Hello blue pale dot</p>
+        <ul>
+            <li><a href="https://www.spotify.com/" target="_blank"><i class="fa fab fa-spotify"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fab fa-facebook"></i></a></li>
+            <li><a href="mailto:elcorreoquequieres@correo.com" target="_blank"><i class="fa fab fa-telegram"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

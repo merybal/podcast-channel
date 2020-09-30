@@ -1,0 +1,948 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, vendor/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, vendor/_normalize.scss */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, vendor/_normalize.scss */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, vendor/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, vendor/_normalize.scss */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, vendor/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, vendor/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, vendor/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, vendor/_normalize.scss */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, vendor/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, vendor/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, vendor/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 133, vendor/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 137, vendor/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, vendor/_normalize.scss */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, vendor/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, vendor/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, vendor/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, vendor/_normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, vendor/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, vendor/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, vendor/_normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, vendor/_normalize.scss */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, vendor/_normalize.scss */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, vendor/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, vendor/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, vendor/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, vendor/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, vendor/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, vendor/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, vendor/_normalize.scss */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, vendor/_normalize.scss */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, vendor/_normalize.scss */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, vendor/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/*
+celulares portrait: hasta 500px;
+celulares landscape: hasta 767px;
+tablet portrait: hasta 
+tablets: 768px-1199px;
+compus: 1200px en adelante;
+-
+$phone-portrait-max: 767px;
+$phone-landscape-min: 576px;
+$tablet-portrait: 768px;
+$tablet-landscape: 1024px;
+$desktop-screen-min: 1220px;
+*/
+/* line 1, utilities/_general.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "IBM Plex Mono", monospace;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 9, utilities/_general.scss */
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 73px; }
+  /* line 13, utilities/_general.scss */
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #060A24;
+    font-weight: normal; }
+  /* line 18, utilities/_general.scss */
+  body h1 {
+    font-size: 36px;
+    line-height: 42px; }
+  /* line 22, utilities/_general.scss */
+  body h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px; }
+  /* line 27, utilities/_general.scss */
+  body h3 {
+    font-size: 24px;
+    font-weight: 600; }
+  /* line 31, utilities/_general.scss */
+  body p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left; }
+
+@media (min-width: 1000px) {
+  /* line 42, utilities/_general.scss */
+  body {
+    padding-top: 200px; }
+    /* line 44, utilities/_general.scss */
+    body h1 {
+      font-size: 64px;
+      line-height: 50px; }
+    /* line 48, utilities/_general.scss */
+    body h2 {
+      font-size: 48px;
+      font-weight: 500; }
+    /* line 52, utilities/_general.scss */
+    body p {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left; } }
+/* line 1, quarks/_button.scss */
+.boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  height: 48px;
+  background: #00F3BB; }
+  /* line 9, quarks/_button.scss */
+  .boton a {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #060A24;
+    font-size: 16px;
+    font-weight: 500; }
+
+@media (min-width: 501px) {
+  /* line 22, quarks/_button.scss */
+  .inicio .boton {
+    width: 226px; }
+
+  /* line 25, quarks/_button.scss */
+  .ultimas-novedades .boton {
+    margin-left: auto;
+    margin-right: auto;
+    width: 345px; } }
+@media (min-width: 1000px) {
+  /* line 36, quarks/_button.scss */
+  .boton {
+    height: 56px; }
+    /* line 38, quarks/_button.scss */
+    .boton a {
+      font-size: 18px; }
+    /* line 41, quarks/_button.scss */
+    .boton:hover {
+      background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); }
+      /* line 43, quarks/_button.scss */
+      .boton:hover a {
+        color: #ffffff; } }
+/* line 1, molecules/_navmenu.scss */
+header {
+  position: fixed;
+  width: 100%;
+  height: 44px;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: #ffffff; }
+  /* line 9, molecules/_navmenu.scss */
+  header .menu-container {
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px 16px 10px 16px; }
+    /* line 16, molecules/_navmenu.scss */
+    header .menu-container .logo {
+      width: 24px;
+      height: 24px; }
+    /* line 20, molecules/_navmenu.scss */
+    header .menu-container label {
+      font-size: 18px;
+      height: 18px; }
+  /* line 25, molecules/_navmenu.scss */
+  header #hamburguesa {
+    display: inline-block; }
+  /* line 28, molecules/_navmenu.scss */
+  header #cruz {
+    display: none; }
+  /* line 32, molecules/_navmenu.scss */
+  header nav {
+    display: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    background-color: #0000ec;
+    height: 224px;
+    width: 100%;
+    top: 44px;
+    left: 0;
+    padding-top: 4px;
+    text-align: left; }
+    /* line 43, molecules/_navmenu.scss */
+    header nav ul {
+      list-style-type: none; }
+      /* line 45, molecules/_navmenu.scss */
+      header nav ul li {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 12px 16px 12px 16px; }
+        /* line 48, molecules/_navmenu.scss */
+        header nav ul li a {
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 16px;
+          line-height: 28px; }
+  /* line 59, molecules/_navmenu.scss */
+  header #menuhamburguesa {
+    display: none; }
+    /* line 62, molecules/_navmenu.scss */
+    header #menuhamburguesa:checked ~ label i#hamburguesa {
+      display: none; }
+    /* line 67, molecules/_navmenu.scss */
+    header #menuhamburguesa:checked ~ label i#cruz {
+      display: inline-block; }
+    /* line 71, molecules/_navmenu.scss */
+    header #menuhamburguesa:checked ~ nav {
+      display: block; }
+
+@media (min-width: 1000px) {
+  /* line 81, molecules/_navmenu.scss */
+  header {
+    height: 80px; }
+    /* line 83, molecules/_navmenu.scss */
+    header .menu-container {
+      height: 80px;
+      max-width: 1284px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 22px 0 22px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      /* line 92, molecules/_navmenu.scss */
+      header .menu-container label i#hamburguesa {
+        display: none; }
+      /* line 96, molecules/_navmenu.scss */
+      header .menu-container .logo {
+        height: 36px;
+        width: 36px; }
+    /* line 101, molecules/_navmenu.scss */
+    header nav {
+      position: unset;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      top: 0;
+      left: auto;
+      right: 0;
+      background-color: #ffffff;
+      height: 80px; }
+      /* line 110, molecules/_navmenu.scss */
+      header nav ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        width: 482px;
+        padding: 0;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        /* line 117, molecules/_navmenu.scss */
+        header nav ul li {
+          padding: 0; }
+          /* line 119, molecules/_navmenu.scss */
+          header nav ul li a {
+            padding: 0;
+            color: #060A24; }
+            /* line 122, molecules/_navmenu.scss */
+            header nav ul li a:hover {
+              color: #00F3BB;
+              font-weight: 500;
+              -webkit-text-decoration-line: line-through;
+                      text-decoration-line: line-through; }
+            /* line 127, molecules/_navmenu.scss */
+            header nav ul li a:active {
+              color: rgba(6, 10, 36, 0.56);
+              font-weight: 500;
+              -webkit-text-decoration-line: line-through;
+                      text-decoration-line: line-through; } }
+/* line 2, molecules/_footer.scss */
+footer p {
+  padding: 0 16px 0 16px;
+  padding-top: 24px;
+  text-align: center; }
+/* line 7, molecules/_footer.scss */
+footer ul {
+  margin: 16px auto 31px auto;
+  max-width: 227px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 14, molecules/_footer.scss */
+  footer ul li a i {
+    text-decoration: none;
+    color: #060A24; }
+
+@media (min-width: 768px) {
+  /* line 24, molecules/_footer.scss */
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1284px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px 22px 36px 22px; }
+    /* line 32, molecules/_footer.scss */
+    footer p {
+      padding: 0; }
+    /* line 35, molecules/_footer.scss */
+    footer ul {
+      padding: 0;
+      margin: 0;
+      width: 232px; }
+      /* line 39, molecules/_footer.scss */
+      footer ul li {
+        font-size: 18px; } }
+/* line 1, molecules/_inicio.scss */
+.inicio {
+  padding: 0 16px 0 16px;
+  padding-top: 0;
+  margin-bottom: 24px; }
+  /* line 5, molecules/_inicio.scss */
+  .inicio h1 {
+    margin-bottom: 1rem; }
+    /* line 6, molecules/_inicio.scss */
+    .inicio h1 s {
+      font-family: inherit;
+      font-weight: inherit; }
+  /* line 12, molecules/_inicio.scss */
+  .inicio p.texto-mobile {
+    margin-bottom: 36px; }
+  /* line 15, molecules/_inicio.scss */
+  .inicio p.texto-desktop {
+    display: none; }
+
+@media (min-width: 501px) {
+  /* line 25, molecules/_inicio.scss */
+  .inicio h1 br {
+    display: none; } }
+@media (min-width: 1000px) {
+  /* line 35, molecules/_inicio.scss */
+  .inicio {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1072px; }
+    /* line 40, molecules/_inicio.scss */
+    .inicio h1 br {
+      display: none; }
+    /* line 43, molecules/_inicio.scss */
+    .inicio h1 span.dot {
+      font-family: inherit;
+      font-weight: inherit;
+      color: #0000EC;
+      -webkit-text-decoration-line: none;
+              text-decoration-line: none; }
+    /* line 50, molecules/_inicio.scss */
+    .inicio p.texto-mobile {
+      display: none; }
+    /* line 53, molecules/_inicio.scss */
+    .inicio p.texto-desktop {
+      display: inline-block;
+      max-width: 628px;
+      margin-bottom: 56px; } }
+/* line 1, molecules/_episodios.scss */
+.episodios {
+  position: relative;
+  z-index: 0;
+  padding-top: 64px;
+  padding-bottom: 143.5px;
+  width: 100%;
+  background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  -webkit-clip-path: polygon(0% 2.65%, 100% 0, 100% 97.35%, 0% 100%);
+          clip-path: polygon(0% 2.65%, 100% 0, 100% 97.35%, 0% 100%); }
+  /* line 9, molecules/_episodios.scss */
+  .episodios h2 {
+    color: white;
+    padding: 0 16px 0 16px;
+    padding-bottom: 21px; }
+  /* line 14, molecules/_episodios.scss */
+  .episodios .iframe-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 11px 0 11px; }
+    /* line 18, molecules/_episodios.scss */
+    .episodios .iframe-container iframe {
+      margin-bottom: 11px;
+      width: 100%;
+      height: 232px; }
+
+@media (min-width: 1000px) {
+  /* line 28, molecules/_episodios.scss */
+  .episodios {
+    padding-top: 186px;
+    padding-bottom: 232px;
+    -webkit-clip-path: polygon(0% 14.28%, 100% 0, 100% 85.72%, 0% 100%);
+            clip-path: polygon(0% 14.28%, 100% 0, 100% 85.72%, 0% 100%); }
+    /* line 32, molecules/_episodios.scss */
+    .episodios h2 {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1072px;
+      padding-bottom: 26px; }
+    /* line 38, molecules/_episodios.scss */
+    .episodios .iframe-container {
+      padding: 0 11px 0 11px;
+      display: grid;
+      max-width: 1262px;
+      height: 536px;
+      margin-left: auto;
+      margin-right: auto;
+      grid-template-columns: 8fr 1fr 8fr;
+      grid-template-rows: 3fr 1fr 3fr; }
+      /* line 47, molecules/_episodios.scss */
+      .episodios .iframe-container #podcast1 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin: 0;
+        padding: 0; }
+      /* line 53, molecules/_episodios.scss */
+      .episodios .iframe-container #podcast2 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        margin: 0;
+        padding: 0; }
+      /* line 59, molecules/_episodios.scss */
+      .episodios .iframe-container #podcast3 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        margin: 0;
+        padding: 0; }
+      /* line 65, molecules/_episodios.scss */
+      .episodios .iframe-container #podcast4 {
+        grid-column-start: 3;
+        grid-row-start: 3;
+        margin: 0;
+        padding: 0; } }
+/* line 2, molecules/_dedondevenimos.scss */
+.img-celular-container .img-celular {
+  position: relative;
+  z-index: 1;
+  margin-top: -95.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 8, molecules/_dedondevenimos.scss */
+  .img-celular-container .img-celular img {
+    max-height: 519px; }
+/* line 12, molecules/_dedondevenimos.scss */
+.img-celular-container .de-donde-venimos {
+  padding: 0 16px 0 16px; }
+  /* line 14, molecules/_dedondevenimos.scss */
+  .img-celular-container .de-donde-venimos h2 {
+    padding-top: 44px;
+    padding-bottom: 8px; }
+  /* line 18, molecules/_dedondevenimos.scss */
+  .img-celular-container .de-donde-venimos p {
+    padding-bottom: 10px; }
+
+@media (min-width: 501px) {
+  /* line 28, molecules/_dedondevenimos.scss */
+  .de-donde-venimos h2 br {
+    display: none; } }
+@media (min-width: 1000px) {
+  /* line 38, molecules/_dedondevenimos.scss */
+  .img-celular-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1072px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    /* line 43, molecules/_dedondevenimos.scss */
+    .img-celular-container .img-celular {
+      max-width: 458px;
+      width: 100%;
+      margin-top: -168px; }
+      /* line 47, molecules/_dedondevenimos.scss */
+      .img-celular-container .img-celular img {
+        max-height: 660px; }
+    /* line 51, molecules/_dedondevenimos.scss */
+    .img-celular-container .de-donde-venimos {
+      margin-top: -268px;
+      max-width: 464px;
+      margin-left: 46px; }
+      /* line 55, molecules/_dedondevenimos.scss */
+      .img-celular-container .de-donde-venimos h2 {
+        padding-top: 268px;
+        padding-bottom: 24px; }
+        /* line 59, molecules/_dedondevenimos.scss */
+        .img-celular-container .de-donde-venimos h2 br {
+          display: none; } }
+/* line 2, molecules/_invitadosestelares.scss */
+.invitados-estelares h2 {
+  padding: 0 16px 0 16px;
+  padding-top: 44px;
+  padding-bottom: 14px; }
+/* line 7, molecules/_invitadosestelares.scss */
+.invitados-estelares .invitados-imagenes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr); }
+  /* line 11, molecules/_invitadosestelares.scss */
+  .invitados-estelares .invitados-imagenes img {
+    width: 100%;
+    display: block; }
+
+@media (min-width: 501px) {
+  /* line 20, molecules/_invitadosestelares.scss */
+  .invitados-estelares .invitados-imagenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; } }
+@media (min-width: 1000px) {
+  /* line 29, molecules/_invitadosestelares.scss */
+  .invitados-estelares {
+    padding-top: 64px; }
+    /* line 31, molecules/_invitadosestelares.scss */
+    .invitados-estelares h2 {
+      padding-bottom: 36px;
+      max-width: 1072px;
+      margin-left: auto;
+      margin-right: auto; }
+    /* line 37, molecules/_invitadosestelares.scss */
+    .invitados-estelares .invitados-imagenes {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr; }
+      /* line 43, molecules/_invitadosestelares.scss */
+      .invitados-estelares .invitados-imagenes img {
+        margin: 0;
+        padding: 0; } }
+/* line 1, molecules/_algunostemas.scss */
+.algunos-temas {
+  text-align: center;
+  padding: 0 16px 0 16px;
+  padding-top: 48px; }
+  /* line 5, molecules/_algunostemas.scss */
+  .algunos-temas h2 {
+    padding-bottom: 37px; }
+  /* line 8, molecules/_algunostemas.scss */
+  .algunos-temas h3 {
+    padding-bottom: 49px; }
+  /* line 11, molecules/_algunostemas.scss */
+  .algunos-temas img {
+    padding-bottom: 13px; }
+
+@media (min-width: 501px) {
+  /* line 20, molecules/_algunostemas.scss */
+  .algunos-temas .temas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; } }
+@media (min-width: 1000px) {
+  /* line 29, molecules/_algunostemas.scss */
+  .algunos-temas {
+    margin-top: -20px;
+    padding: 84px 16px 34px 16px;
+    max-width: 1072px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 35, molecules/_algunostemas.scss */
+    .algunos-temas h2 {
+      text-align: left;
+      padding-bottom: 69px; }
+    /* line 39, molecules/_algunostemas.scss */
+    .algunos-temas .temas {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr; } }
+/* line 1, molecules/_ultimasnovedades.scss */
+.ultimas-novedades {
+  padding: 0 16px 0 16px;
+  width: 100%;
+  height: 341px;
+  background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  -webkit-clip-path: polygon(0% 10%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 10%, 100% 0, 100% 100%, 0% 100%); }
+  /* line 7, molecules/_ultimasnovedades.scss */
+  .ultimas-novedades h2 {
+    text-align: center;
+    color: white;
+    padding: 0 16px 0 16px;
+    padding-top: 64px;
+    padding-bottom: 36px; }
+
+@media (min-width: 501px) {
+  /* line 18, molecules/_ultimasnovedades.scss */
+  .ultimas-novedades {
+    height: 260px; } }
+@media (min-width: 1000px) {
+  /* line 24, molecules/_ultimasnovedades.scss */
+  .ultimas-novedades {
+    -webkit-clip-path: polygon(0% 25%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 25%, 100% 0, 100% 100%, 0% 100%);
+    padding: 0;
+    height: 518px; }
+    /* line 28, molecules/_ultimasnovedades.scss */
+    .ultimas-novedades h2 {
+      padding: 213px 0 36px 0; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+footer {
+    p {
+        padding: $padding-text-sides;
+        padding-top: 24px;
+        text-align: center;
+    }
+    ul {
+        margin: 16px auto 31px auto;
+        max-width: 227px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        li {
+            a i {
+                text-decoration: none;
+                color: #060A24;
+            }
+        }
+    }
+}
+
+//Vista Tablet y desktop
+@media (min-width: $tablet-portrait-min) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1284px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 36px 22px 36px 22px;
+        p {
+            padding: 0;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            width: 232px;
+            li {
+                font-size: $font-size-dv-fw;
+            }
+        }
+    }
+
+}

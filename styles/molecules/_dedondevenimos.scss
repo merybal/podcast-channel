@@ -1,0 +1,66 @@
+.img-celular-container {
+    .img-celular {
+        position: relative;
+        z-index: 1;
+        margin-top: -95.5px;
+        display: flex;
+        justify-content: center;
+        img {
+            max-height: 519px;
+        }
+    }
+    .de-donde-venimos {
+        padding: $padding-text-sides;
+        h2 {
+            padding-top: 44px;
+            padding-bottom: 8px;
+        }
+        p {
+            padding-bottom: 10px;
+        }
+    }
+}
+
+
+//Vista Phone portrait y Tablet 
+@media (min-width: $phone-landscape-min) {
+    .de-donde-venimos {
+        h2 br {
+            display: none;
+        }
+    }
+
+}
+
+
+//Vista Desktop
+@media (min-width: $desktop-screen-min) {
+    .img-celular-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: $max-width-body-dv;
+        display: flex;
+        .img-celular {
+            max-width: 458px;
+            width: 100%;
+            margin-top: -168px;
+            img {
+            max-height: 660px;
+            }
+        }
+        .de-donde-venimos {
+            margin-top: -268px;
+            max-width: 464px;
+            margin-left: 46px;
+            h2 {
+                padding-top: 268px;
+                //padding-top: 20px;
+                padding-bottom: 24px;
+                br {
+                    display: none;
+                }
+            }
+        }
+
+    }
+}

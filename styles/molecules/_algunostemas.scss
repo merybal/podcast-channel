@@ -1,0 +1,44 @@
+.algunos-temas {
+    text-align: center;
+    padding: $padding-text-sides;
+    padding-top: 48px;
+    h2 {
+        padding-bottom: 37px;
+    }
+    h3 {
+        padding-bottom: 49px;
+    }
+    img {
+        padding-bottom: 13px;
+    }
+
+}
+
+//Vista phone landscape
+@media (min-width: $phone-landscape-min) {
+    .algunos-temas {
+        .temas {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+}
+// Vista Desktop
+@media (min-width: $desktop-screen-min) {
+    .algunos-temas {
+        margin-top: -20px;
+        padding: 84px 16px 34px 16px;
+        max-width: $max-width-body-dv;
+        margin-left: auto;
+        margin-right: auto;
+        h2 {
+            text-align: left;
+            padding-bottom: 69px;
+        }
+        .temas {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+        }
+    }
+}
